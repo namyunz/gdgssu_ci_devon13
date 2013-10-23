@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'NanumGothic';
+	font-style: normal;
+	font-weight: 400;
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v2/NanumGothic-Regular.eot);
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v2/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+	url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v2/NanumGothic-Regular.woff2) format('x-woff2'),
+	url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v2/NanumGothic-Regular.woff) format('woff'),
+	url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v2/NanumGothic-Regular.ttf) format('truetype');
+} 
+
+html, body
+{
+	height: 100%;
+	background: #F0F0F0;
+}
+
+.wrap
+{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0px auto -50px;
+	padding: 60px 0px 100px;
+}
+
+.logo img
+{
+	width: 128px;
+	margin: 0 auto;
+}
+
+#footer
+{
+	height: 50px;
+	background: #f8f8f8;
+}
+
+.credit
+{
+	margin-top: 20px;
+	color: rgb(153,153,153);
+}
+
+#policies.credit
+{
+	text-align: right;
+	vertical-align: bottom;
+}
